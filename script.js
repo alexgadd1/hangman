@@ -11,8 +11,9 @@ var words = ['javascript', 'rails', 'variable', 'array', 'function', 'jquery',
 
 var randNum = Math.floor(Math.random() * words.length);
 
-$("#alphabet").on("click", function() {
-alert("hello");
+$("#alphabet").on("click", function($event) {
+var userGuess = $($event.target).attr('id');
+alert(userGuess);
 });
 
 }
