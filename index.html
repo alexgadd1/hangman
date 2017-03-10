@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  </head>
+  <header>
+  </header>
+	<title>HANGMAN - by Alex Gadd</title>
+	  <h1>HANGMAN! - A WDI 9 PRODUCTION</h1>
+	  <h2>The category is HTML, CSS, JAVASCRIPT terms and phrases, try your luck!!</h2>
+	  <h3>You have six tries to spell the word or phrase, or... GAME OVER!!</h3> 
+	  <p> PLAYER 1</p>
+	  <!-- <p> PLAYER 2</p> -->
+<div></div>
+
+	<img src ="http://www.ilearngreek.com/images/p.png">
+	<div class="hangman-word">
+	  <div class="secret-word-letter">J</div>
+	  <div class="secret-word-letter">A</div>
+	  <div class="secret-word-letter">V</div>
+	  <div class="secret-word-letter">A</div>
+	  <div class="secret-word-letter">S</div>
+	  <div class="secret-word-letter">C</div>
+	  <div class="secret-word-letter">R</div>
+	  <div class="secret-word-letter">I</div>
+	  <div class="secret-word-letter">P</div>
+	  <div class="secret-word-letter">T</div>
+	  </div>
+
+	<p>Insturctions:</p>
+    <div class="wrapper">
+	</div>
+<body>
+<p> Player will select a letter from the alphabet, listed on the bottom of the screen.  If letter selected is part of the word or phrase for the round, letter will be displayed in the blank spaces, and will be removed from the alphabet.  If letter selected is not part of the word or phrase, the player loses a turn.  Player will have a total of 7 guesses to spell out the letter.  If the player is able to correctly spell the phrase or word in 7 guesses or less, the player wins the game.</p>
+    <div>
+    </div>
+      <div id="alphabet">
+	      <ul>
+	      <li id="a" class= "letter">A</li>
+	      <li id="b" class= "letter">B</li>
+	      <li id="c" class= "letter">C</li>
+	      <li id="d" class= "letter">D</li>
+	      <li id="e" class= "letter">E</li>
+	      <li id="f" class= "letter">F</li>
+	      <li id="g" class= "letter">G</li>
+	      <li id="h" class= "letter">H</li>
+	      <li id="i" class= "letter">I</li>
+	      <li id="j" class= "letter">J</li>
+	      <li id="k" class= "letter">K</li>
+	      <li id="l" class= "letter">L</li>
+	      <li id="m" class= "letter">M</li>
+	      <li id="n" class= "letter">N</li>
+	      <li id="o" class= "letter">O</li>
+	      <li id="p" class= "letter">P</li>
+	      <li id="q" class= "letter">Q</li>
+	      <li id="r" class= "letter">R</li>
+	      <li id="s" class= "letter">S</li>
+	      <li id="t" class= "letter">T</li>
+	      <li id="u" class= "letter">U</li>
+	      <li id="v" class= "letter">V</li>
+	      <li id="w" class= "letter">W</li>
+	      <li id="x" class= "letter">X</li>
+	      <li id="y" class= "letter">Y</li>
+	      <li id="z" class= "letter">Z</li>
+		  </ul>
+	  </div>
+	  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+- Develop user stories for the game / executable plan of action. (HTML, CSS, Java)
+- Begin with wire frames for game, illustrating each page layout from start to finish.
+- Develop the basic layout for the HTML skeleton of the game.
+- Add styling to page through CSS.
+- Develop ways to manipulate the DOM through JS / JQuery.
+- Test application frequently thougout the process.
+- Find solutuions to any issues that surface during the test process and implement thenm.
+- Ensure that final product ready for production.
+
+
+ - THINGS TO DO IN HTML/CSS
+ - Move instructions to left hand side / bottom of screen.
+ - Create PLAYER 1 / name elemet to render. (right hand side)
+ - Create alphabet to dislpay below img.
+ - Create blank spaces for letters to render to the left of the img.

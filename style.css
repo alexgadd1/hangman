@@ -1,0 +1,86 @@
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 50px;
+}
+
+h2, h3 {
+	text-align: center;
+	font-size: 25px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body {
+	background-color: green;
+	font-size: 20px;
+}
+
+p {
+	text: bold 10px;
+}
+
+#alphabet {
+	background: white;
+	cursor: pointer;
+	text-align: center;
+	
+	  &:hover{
+	  	border: solid 1px white;
+	  	color: white;
+	  }
+}
+
+#a {
+	background: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+button {
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	padding: 18px 10px;
+	width: 180px;
+	margin: 10px;
+}
+
+	&:hover {
+		background: white;
+		border: solid 1px white;
+}
+ 
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.letter {
+	display: inline-block;
+	background: blue;
+	margin: 3px;
+	padding: 3px;
+	border: 2px solid gray;
+	width: 15px;
+	color: white;
+}
+
+.secret-word-letter {
+	display: inline-block;
+	background: blue;
+	margin: 3px;
+	padding: 3px;
+	border: 2px solid gray;
+	width: 15px;
+}
+
+.hangman-word {
+	display: none;
+	text-align: center;
+	color: white;
+}
